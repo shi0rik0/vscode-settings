@@ -1,0 +1,7 @@
+{
+    "New vue file": {
+        "prefix": "_newvue",
+        "body": "<script setup lang=\"ts\">\n\n</script>\n\n<template>\n\n</template>\n\n<style scoped>\n\n</style>",
+        "description": "Create a new vue file"
+    }
+}

@@ -19,6 +19,11 @@ setup(
     version='0.0.0',
     install_requires=[],
     python_requires='>=3.6',
+    entry_points={
+        'console_scripts': [
+            'example-hello = example_package:hello',
+        ],
+    },
     # You don't need to change the arguments below
     name=get_package_name(),
     packages=find_packages('src'),
